@@ -1,4 +1,4 @@
 ﻿$servers = Get-Content C:\scripts\servers.csv |
 ForEach-Object{
-Add-CloudServer -CloudServerName $_ -CloudServerFlavorID 2 -CloudServerImageID 8a3a9f96-b997-46fd-b7a8-a9e740796ffd -Region DFW
+Add-CloudServer -CloudServerName $_ -CloudServerFlavorID 2 -CloudServerImageID f9c8eb71-2d57-4432-afe7-0c637c88bd81 -Region DFW
 }
